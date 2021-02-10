@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <title>
+    'javascript practice'
+    </title>
+    <body>
+    <script type="text/javascript">
+      //0부터 99까지
+    for(var i = 0; i < 10; i++) {
+        for(var j = 0; j <10; j++) {
+            document.write(String(i)+String(j)+'<br />');
+         }
+     }
+    </script>
+    </body>
+    <body>
+        <script type="text/javascript">
+         function argument(arg1, arg2) {
+            return arg1 + arg2;
+         }
+        alert(argument(10, 20));
+        alert(argument(20, 30));
+        </script>
+    </body>
+    <body>
+        <script type="text/javascript">
+        function get_members(){
+            return ['A', 'B', 'C', 'abc'];
+        }
+        var members = get_members();
+        document.write(members[0]+'<br />');
+        document.write(members[1]+'<br />');
+        document.write(members[2]+'<br />');
+        document.write(members[3].toUpperCase()+'<br />');
+
+        function get(){
+        return ['egoing', 'k8805', 'sorialgi', 'leezche'];
+        }
+
+        var d = get();
+
+        for (var i = 0; i < d.length; i++) {
+            document.write(d[i].toUpperCase()+"<br /n>");
+        }
+        </script>
+    </body>
+</html>    
